@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="1.586" tests="31" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/jideolawuyi/Desktop/portfolio-rebalancing/target/test-classes:/Users/jideolawuyi/Desktop/portfolio-rebalancing/target/classes:/Users/jideolawuyi/.m2/repository/org/testng/testng/7.9.0/testng-7.9.0.jar:/Users/jideolawuyi/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/jideolawuyi/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/jideolawuyi/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/jideolawuyi/.m2/repository/org/assertj/assertj-core/3.25.3/assertj-core-3.25.3.jar:/Users/jideolawuyi/.m2/repository/net/bytebuddy/byte-buddy/1.14.11/byte-buddy-1.14.11.jar:"/>
+    <property name="java.vm.vendor" value="Amazon.com Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
+    <property name="user.timezone" value="Europe/Dublin"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/Users/jideolawuyi/Library/Java/JavaVirtualMachines/corretto-11.0.31/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/jideolawuyi/Desktop/portfolio-rebalancing/target/surefire/surefirebooter-20260608144325996_3.jar /Users/jideolawuyi/Desktop/portfolio-rebalancing/target/surefire 2026-06-08T14-43-24_529-jvmRun1 surefire-20260608144325996_1tmp surefire_0-20260608144325996_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/jideolawuyi/Desktop/portfolio-rebalancing/target/test-classes:/Users/jideolawuyi/Desktop/portfolio-rebalancing/target/classes:/Users/jideolawuyi/.m2/repository/org/testng/testng/7.9.0/testng-7.9.0.jar:/Users/jideolawuyi/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/jideolawuyi/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/jideolawuyi/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/jideolawuyi/.m2/repository/org/assertj/assertj-core/3.25.3/assertj-core-3.25.3.jar:/Users/jideolawuyi/.m2/repository/net/bytebuddy/byte-buddy/1.14.11/byte-buddy-1.14.11.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/jideolawuyi"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-04-21"/>
+    <property name="java.home" value="/Users/jideolawuyi/Library/Java/JavaVirtualMachines/corretto-11.0.31/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/jideolawuyi/Desktop/portfolio-rebalancing"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/jideolawuyi/Desktop/portfolio-rebalancing/target/surefire/surefirebooter-20260608144325996_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="11.0.31+11-LTS"/>
+    <property name="user.name" value="jideolawuyi"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="26.2"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Corretto-11.0.31.11.1"/>
+    <property name="localRepository" value="/Users/jideolawuyi/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-11/issues/"/>
+    <property name="java.io.tmpdir" value="/var/folders/c0/9cslpn653x937l74x2t_j08w0000gn/T/"/>
+    <property name="idea.version" value="2023.3.8"/>
+    <property name="java.version" value="11.0.31"/>
+    <property name="user.dir" value="/Users/jideolawuyi/Desktop/portfolio-rebalancing"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/jideolawuyi/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Amazon.com Inc."/>
+    <property name="java.vm.version" value="11.0.31+11-LTS"/>
+    <property name="java.specification.maintenance.version" value="3"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="Parameterized_allSecurities[org.crd.Security@3e08ff24, BUY, 66](1)" classname="org.crd.tests.RebalanceCalculatorTest" time="0.151">
+    <system-out><![CDATA[...
+... TestNG 7.9.0 by Cédric Beust (cedric@beust.com)
+...
+
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="Parameterized_allSecurities[org.crd.Security@4c2bb6e0, HOLD, 0](2)" classname="org.crd.tests.RebalanceCalculatorTest" time="0.0"/>
+  <testcase name="Parameterized_allSecurities[org.crd.Security@4ef74c30, SELL, 45](3)" classname="org.crd.tests.RebalanceCalculatorTest" time="0.0"/>
+  <testcase name="Parameterized_allSecurities[org.crd.Security@638ef7ed, HOLD, 0](4)" classname="org.crd.tests.RebalanceCalculatorTest" time="0.0"/>
+  <testcase name="Parameterized_allSecurities[org.crd.Security@3f1d2e23, HOLD, 0](5)" classname="org.crd.tests.RebalanceCalculatorTest" time="0.0"/>
+  <testcase name="correctSecurityLabels" classname="org.crd.tests.RebalanceCalculatorTest" time="0.0"/>
+  <testcase name="decimalUnitPriceHandledCorrectly" classname="org.crd.tests.RebalanceCalculatorTest" time="0.0"/>
+  <testcase name="holdRowsShowZeroShares" classname="org.crd.tests.RebalanceCalculatorTest" time="0.0"/>
+  <testcase name="negativeTotalAssetsBlocked" classname="org.crd.tests.RebalanceCalculatorTest" time="0.0"/>
+  <testcase name="oneRowPerSecurity" classname="org.crd.tests.RebalanceCalculatorTest" time="0.0"/>
+  <testcase name="residualCashNotAnError" classname="org.crd.tests.RebalanceCalculatorTest" time="0.0"/>
+  <testcase name="sharesAlwaysRoundedDown" classname="org.crd.tests.RebalanceCalculatorTest" time="0.0"/>
+  <testcase name="totalTargetExceeds100Blocked" classname="org.crd.tests.RebalanceCalculatorTest" time="0.0"/>
+  <testcase name="validActionValues" classname="org.crd.tests.RebalanceCalculatorTest" time="0.0"/>
+  <testcase name="validInputAccepted" classname="org.crd.tests.RebalanceCalculatorTest" time="0.0"/>
+  <testcase name="zeroTotalAssetsBlocked" classname="org.crd.tests.RebalanceCalculatorTest" time="0.0"/>
+  <testcase name="zeroUnitPriceBlocked" classname="org.crd.tests.RebalanceCalculatorTest" time="0.0"/>
+  <testcase name="fullAccountAbcScenario" classname="org.crd.tests.ShareCalculationTest" time="0.003"/>
+  <testcase name="holdSecurities" classname="org.crd.tests.ShareCalculationTest" time="0.0"/>
+  <testcase name="ibmBuy66Shares" classname="org.crd.tests.ShareCalculationTest" time="0.0"/>
+  <testcase name="orclSell45Shares" classname="org.crd.tests.ShareCalculationTest" time="0.001"/>
+  <testcase name="stockPriceExceedsAllocation" classname="org.crd.tests.ShareCalculationTest" time="0.0"/>
+  <testcase name="tcParameterized_allSecurities[org.crd.Security@3e08ff24, BUY, 66](1)" classname="org.crd.tests.ShareCalculationTest" time="0.001"/>
+  <testcase name="tcParameterized_allSecurities[org.crd.Security@4c2bb6e0, HOLD, 0](2)" classname="org.crd.tests.ShareCalculationTest" time="0.0"/>
+  <testcase name="tcParameterized_allSecurities[org.crd.Security@4ef74c30, SELL, 45](3)" classname="org.crd.tests.ShareCalculationTest" time="0.0"/>
+  <testcase name="tcParameterized_allSecurities[org.crd.Security@638ef7ed, HOLD, 0](4)" classname="org.crd.tests.ShareCalculationTest" time="0.001"/>
+  <testcase name="tcParameterized_allSecurities[org.crd.Security@3f1d2e23, HOLD, 0](5)" classname="org.crd.tests.ShareCalculationTest" time="0.0"/>
+  <testcase name="alreadyBalancedPortfolio" classname="org.crd.tests.ZeroVarianceTest" time="0.002"/>
+  <testcase name="rebalanceIsSelfFunding" classname="org.crd.tests.ZeroVarianceTest" time="0.002"/>
+  <testcase name="tradesAchieveZeroVariance" classname="org.crd.tests.ZeroVarianceTest" time="0.003"/>
+  <testcase name="noFurtherTradesAfterRebalance" classname="org.crd.tests.ZeroVarianceTest" time="0.001"/>
+</testsuite>

@@ -1,0 +1,165 @@
+<html>
+<head>
+<title>TestNG:  1 - Portfolio Input and Validation</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>1 - Portfolio Input and Validation</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>17/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Jun 08 14:43:28 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (251 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='org.crd.tests.RebalanceCalculatorTest.negativeTotalAssetsBlocked()'><b>negativeTotalAssetsBlocked</b><br>Test class: org.crd.tests.RebalanceCalculatorTest<br>Test method: Application does not allow calculation when total assets is negative</td>
+<td></td>
+<td>0</td>
+<td>org.crd.tests.RebalanceCalculatorTest@693fe6c9</td></tr>
+<tr>
+<td title='org.crd.tests.RebalanceCalculatorTest.correctSecurityLabels()'><b>correctSecurityLabels</b><br>Test class: org.crd.tests.RebalanceCalculatorTest<br>Test method: Each row displays the correct Security name</td>
+<td></td>
+<td>0</td>
+<td>org.crd.tests.RebalanceCalculatorTest@693fe6c9</td></tr>
+<tr>
+<td title='org.crd.tests.RebalanceCalculatorTest.Parameterized_allSecurities()'><b>Parameterized_allSecurities</b><br>Test class: org.crd.tests.RebalanceCalculatorTest<br>Test method: correct action and shares for each security<br>Parameters: org.crd.Security@4ef74c30, SELL, 45</td>
+<td></td>
+<td>0</td>
+<td>org.crd.tests.RebalanceCalculatorTest@693fe6c9</td></tr>
+<tr>
+<td title='org.crd.tests.RebalanceCalculatorTest.residualCashNotAnError()'><b>residualCashNotAnError</b><br>Test class: org.crd.tests.RebalanceCalculatorTest<br>Test method: Residual cash from rounding is not treated as an error</td>
+<td></td>
+<td>0</td>
+<td>org.crd.tests.RebalanceCalculatorTest@693fe6c9</td></tr>
+<tr>
+<td title='org.crd.tests.RebalanceCalculatorTest.oneRowPerSecurity()'><b>oneRowPerSecurity</b><br>Test class: org.crd.tests.RebalanceCalculatorTest<br>Test method: Results contain one row for every security entered</td>
+<td></td>
+<td>0</td>
+<td>org.crd.tests.RebalanceCalculatorTest@693fe6c9</td></tr>
+<tr>
+<td title='org.crd.tests.RebalanceCalculatorTest.Parameterized_allSecurities()'><b>Parameterized_allSecurities</b><br>Test class: org.crd.tests.RebalanceCalculatorTest<br>Test method: correct action and shares for each security<br>Parameters: org.crd.Security@3f1d2e23, HOLD, 0</td>
+<td></td>
+<td>0</td>
+<td>org.crd.tests.RebalanceCalculatorTest@693fe6c9</td></tr>
+<tr>
+<td title='org.crd.tests.RebalanceCalculatorTest.zeroUnitPriceBlocked()'><b>zeroUnitPriceBlocked</b><br>Test class: org.crd.tests.RebalanceCalculatorTest<br>Test method: Application does not allow calculation when unit price is zero</td>
+<td></td>
+<td>0</td>
+<td>org.crd.tests.RebalanceCalculatorTest@693fe6c9</td></tr>
+<tr>
+<td title='org.crd.tests.RebalanceCalculatorTest.validInputAccepted()'><b>validInputAccepted</b><br>Test class: org.crd.tests.RebalanceCalculatorTest<br>Test method: All 5 Account ABC securities can be entered successfully</td>
+<td></td>
+<td>0</td>
+<td>org.crd.tests.RebalanceCalculatorTest@693fe6c9</td></tr>
+<tr>
+<td title='org.crd.tests.RebalanceCalculatorTest.Parameterized_allSecurities()'><b>Parameterized_allSecurities</b><br>Test class: org.crd.tests.RebalanceCalculatorTest<br>Test method: correct action and shares for each security<br>Parameters: org.crd.Security@4c2bb6e0, HOLD, 0</td>
+<td></td>
+<td>0</td>
+<td>org.crd.tests.RebalanceCalculatorTest@693fe6c9</td></tr>
+<tr>
+<td title='org.crd.tests.RebalanceCalculatorTest.Parameterized_allSecurities()'><b>Parameterized_allSecurities</b><br>Test class: org.crd.tests.RebalanceCalculatorTest<br>Test method: correct action and shares for each security<br>Parameters: org.crd.Security@3e08ff24, BUY, 66</td>
+<td></td>
+<td>0</td>
+<td>org.crd.tests.RebalanceCalculatorTest@693fe6c9</td></tr>
+<tr>
+<td title='org.crd.tests.RebalanceCalculatorTest.sharesAlwaysRoundedDown()'><b>sharesAlwaysRoundedDown</b><br>Test class: org.crd.tests.RebalanceCalculatorTest<br>Test method: Shares are always rounded down to avoid exceeding the budget</td>
+<td></td>
+<td>0</td>
+<td>org.crd.tests.RebalanceCalculatorTest@693fe6c9</td></tr>
+<tr>
+<td title='org.crd.tests.RebalanceCalculatorTest.decimalUnitPriceHandledCorrectly()'><b>decimalUnitPriceHandledCorrectly</b><br>Test class: org.crd.tests.RebalanceCalculatorTest<br>Test method: Application correctly handles decimal stock prices</td>
+<td></td>
+<td>0</td>
+<td>org.crd.tests.RebalanceCalculatorTest@693fe6c9</td></tr>
+<tr>
+<td title='org.crd.tests.RebalanceCalculatorTest.zeroTotalAssetsBlocked()'><b>zeroTotalAssetsBlocked</b><br>Test class: org.crd.tests.RebalanceCalculatorTest<br>Test method: Application does not allow calculation when total assets is zero</td>
+<td></td>
+<td>0</td>
+<td>org.crd.tests.RebalanceCalculatorTest@693fe6c9</td></tr>
+<tr>
+<td title='org.crd.tests.RebalanceCalculatorTest.holdRowsShowZeroShares()'><b>holdRowsShowZeroShares</b><br>Test class: org.crd.tests.RebalanceCalculatorTest<br>Test method: Securities that need no trade show 0 shares</td>
+<td></td>
+<td>0</td>
+<td>org.crd.tests.RebalanceCalculatorTest@693fe6c9</td></tr>
+<tr>
+<td title='org.crd.tests.RebalanceCalculatorTest.validActionValues()'><b>validActionValues</b><br>Test class: org.crd.tests.RebalanceCalculatorTest<br>Test method: Every security shows a valid action of BUY, SELL or HOLD</td>
+<td></td>
+<td>0</td>
+<td>org.crd.tests.RebalanceCalculatorTest@693fe6c9</td></tr>
+<tr>
+<td title='org.crd.tests.RebalanceCalculatorTest.totalTargetExceeds100Blocked()'><b>totalTargetExceeds100Blocked</b><br>Test class: org.crd.tests.RebalanceCalculatorTest<br>Test method: Application does not allow calculation when total target allocation exceeds 100%</td>
+<td></td>
+<td>0</td>
+<td>org.crd.tests.RebalanceCalculatorTest@693fe6c9</td></tr>
+<tr>
+<td title='org.crd.tests.RebalanceCalculatorTest.Parameterized_allSecurities()'><b>Parameterized_allSecurities</b><br>Test class: org.crd.tests.RebalanceCalculatorTest<br>Test method: correct action and shares for each security<br>Parameters: org.crd.Security@638ef7ed, HOLD, 0</td>
+<td></td>
+<td>0</td>
+<td>org.crd.tests.RebalanceCalculatorTest@693fe6c9</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="31" passed="31" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-06-08T14:43:28 IST" name="CRD Portfolio Rebalancer Test Suite" finished-at="2026-06-08T14:43:28 IST" duration-ms="474">
+    <groups>
+    </groups>
+    <test started-at="2026-06-08T14:43:28 IST" name="1 - Portfolio Input and Validation" finished-at="2026-06-08T14:43:28 IST" duration-ms="251">
+      <class name="org.crd.tests.RebalanceCalculatorTest">
+        <test-method signature="Parameterized_allSecurities(org.crd.Security,java.lang.String,int)[pri:0, instance:org.crd.tests.RebalanceCalculatorTest@693fe6c9]" started-at="2026-06-08T14:43:28 IST" name="Parameterized_allSecurities" description="correct action and shares for each security" data-provider="securityData" finished-at="2026-06-08T14:43:28 IST" duration-ms="82" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.crd.Security@3e08ff24]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BUY]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[66]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Parameterized_allSecurities -->
+        <test-method signature="Parameterized_allSecurities(org.crd.Security,java.lang.String,int)[pri:0, instance:org.crd.tests.RebalanceCalculatorTest@693fe6c9]" started-at="2026-06-08T14:43:28 IST" name="Parameterized_allSecurities" description="correct action and shares for each security" data-provider="securityData" finished-at="2026-06-08T14:43:28 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.crd.Security@4ef74c30]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SELL]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[45]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Parameterized_allSecurities -->
+        <test-method signature="Parameterized_allSecurities(org.crd.Security,java.lang.String,int)[pri:0, instance:org.crd.tests.RebalanceCalculatorTest@693fe6c9]" started-at="2026-06-08T14:43:28 IST" name="Parameterized_allSecurities" description="correct action and shares for each security" data-provider="securityData" finished-at="2026-06-08T14:43:28 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.crd.Security@4c2bb6e0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[HOLD]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Parameterized_allSecurities -->
+        <test-method signature="Parameterized_allSecurities(org.crd.Security,java.lang.String,int)[pri:0, instance:org.crd.tests.RebalanceCalculatorTest@693fe6c9]" started-at="2026-06-08T14:43:28 IST" name="Parameterized_allSecurities" description="correct action and shares for each security" data-provider="securityData" finished-at="2026-06-08T14:43:28 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.crd.Security@638ef7ed]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[HOLD]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Parameterized_allSecurities -->
+        <test-method signature="Parameterized_allSecurities(org.crd.Security,java.lang.String,int)[pri:0, instance:org.crd.tests.RebalanceCalculatorTest@693fe6c9]" started-at="2026-06-08T14:43:28 IST" name="Parameterized_allSecurities" description="correct action and shares for each security" data-provider="securityData" finished-at="2026-06-08T14:43:28 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.crd.Security@3f1d2e23]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[HOLD]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Parameterized_allSecurities -->
+        <test-method signature="correctSecurityLabels()[pri:0, instance:org.crd.tests.RebalanceCalculatorTest@693fe6c9]" started-at="2026-06-08T14:43:28 IST" name="correctSecurityLabels" description="Each row displays the correct Security name" finished-at="2026-06-08T14:43:28 IST" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- correctSecurityLabels -->
+        <test-method signature="decimalUnitPriceHandledCorrectly()[pri:0, instance:org.crd.tests.RebalanceCalculatorTest@693fe6c9]" started-at="2026-06-08T14:43:28 IST" name="decimalUnitPriceHandledCorrectly" description="Application correctly handles decimal stock prices" finished-at="2026-06-08T14:43:28 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- decimalUnitPriceHandledCorrectly -->
+        <test-method signature="holdRowsShowZeroShares()[pri:0, instance:org.crd.tests.RebalanceCalculatorTest@693fe6c9]" started-at="2026-06-08T14:43:28 IST" name="holdRowsShowZeroShares" description="Securities that need no trade show 0 shares" finished-at="2026-06-08T14:43:28 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- holdRowsShowZeroShares -->
+        <test-method signature="negativeTotalAssetsBlocked()[pri:0, instance:org.crd.tests.RebalanceCalculatorTest@693fe6c9]" started-at="2026-06-08T14:43:28 IST" name="negativeTotalAssetsBlocked" description="Application does not allow calculation when total assets is negative" finished-at="2026-06-08T14:43:28 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeTotalAssetsBlocked -->
+        <test-method signature="oneRowPerSecurity()[pri:0, instance:org.crd.tests.RebalanceCalculatorTest@693fe6c9]" started-at="2026-06-08T14:43:28 IST" name="oneRowPerSecurity" description="Results contain one row for every security entered" finished-at="2026-06-08T14:43:28 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oneRowPerSecurity -->
+        <test-method signature="residualCashNotAnError()[pri:0, instance:org.crd.tests.RebalanceCalculatorTest@693fe6c9]" started-at="2026-06-08T14:43:28 IST" name="residualCashNotAnError" description="Residual cash from rounding is not treated as an error" finished-at="2026-06-08T14:43:28 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- residualCashNotAnError -->
+        <test-method signature="sharesAlwaysRoundedDown()[pri:0, instance:org.crd.tests.RebalanceCalculatorTest@693fe6c9]" started-at="2026-06-08T14:43:28 IST" name="sharesAlwaysRoundedDown" description="Shares are always rounded down to avoid exceeding the budget" finished-at="2026-06-08T14:43:28 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sharesAlwaysRoundedDown -->
+        <test-method signature="totalTargetExceeds100Blocked()[pri:0, instance:org.crd.tests.RebalanceCalculatorTest@693fe6c9]" started-at="2026-06-08T14:43:28 IST" name="totalTargetExceeds100Blocked" description="Application does not allow calculation when total target allocation exceeds 100%" finished-at="2026-06-08T14:43:28 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- totalTargetExceeds100Blocked -->
+        <test-method signature="validActionValues()[pri:0, instance:org.crd.tests.RebalanceCalculatorTest@693fe6c9]" started-at="2026-06-08T14:43:28 IST" name="validActionValues" description="Every security shows a valid action of BUY, SELL or HOLD" finished-at="2026-06-08T14:43:28 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validActionValues -->
+        <test-method signature="validInputAccepted()[pri:0, instance:org.crd.tests.RebalanceCalculatorTest@693fe6c9]" started-at="2026-06-08T14:43:28 IST" name="validInputAccepted" description="All 5 Account ABC securities can be entered successfully" finished-at="2026-06-08T14:43:28 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validInputAccepted -->
+        <test-method signature="zeroTotalAssetsBlocked()[pri:0, instance:org.crd.tests.RebalanceCalculatorTest@693fe6c9]" started-at="2026-06-08T14:43:28 IST" name="zeroTotalAssetsBlocked" description="Application does not allow calculation when total assets is zero" finished-at="2026-06-08T14:43:28 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- zeroTotalAssetsBlocked -->
+        <test-method signature="zeroUnitPriceBlocked()[pri:0, instance:org.crd.tests.RebalanceCalculatorTest@693fe6c9]" started-at="2026-06-08T14:43:28 IST" name="zeroUnitPriceBlocked" description="Application does not allow calculation when unit price is zero" finished-at="2026-06-08T14:43:28 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- zeroUnitPriceBlocked -->
+      </class> <!-- org.crd.tests.RebalanceCalculatorTest -->
+    </test> <!-- 1 - Portfolio Input and Validation -->
+    <test started-at="2026-06-08T14:43:28 IST" name="2 - Share Calculation" finished-at="2026-06-08T14:43:28 IST" duration-ms="32">
+      <class name="org.crd.tests.ShareCalculationTest">
+        <test-method signature="fullAccountAbcScenario()[pri:0, instance:org.crd.tests.ShareCalculationTest@2c35e847]" started-at="2026-06-08T14:43:28 IST" name="fullAccountAbcScenario" description="Full Account ABC produces correct output for all 5 securities" finished-at="2026-06-08T14:43:28 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fullAccountAbcScenario -->
+        <test-method signature="holdSecurities()[pri:0, instance:org.crd.tests.ShareCalculationTest@2c35e847]" started-at="2026-06-08T14:43:28 IST" name="holdSecurities" description="MSFT, AAPL and HD are balanced then HOLD with 0 shares" finished-at="2026-06-08T14:43:28 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- holdSecurities -->
+        <test-method signature="ibmBuy66Shares()[pri:0, instance:org.crd.tests.ShareCalculationTest@2c35e847]" started-at="2026-06-08T14:43:28 IST" name="ibmBuy66Shares" description="IBM is under-allocated → BUY 66 shares" finished-at="2026-06-08T14:43:28 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ibmBuy66Shares -->
+        <test-method signature="orclSell45Shares()[pri:0, instance:org.crd.tests.ShareCalculationTest@2c35e847]" started-at="2026-06-08T14:43:28 IST" name="orclSell45Shares" description="ORCL is over-allocated then SELL 45 shares" finished-at="2026-06-08T14:43:28 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orclSell45Shares -->
+        <test-method signature="stockPriceExceedsAllocation()[pri:0, instance:org.crd.tests.ShareCalculationTest@2c35e847]" started-at="2026-06-08T14:43:28 IST" name="stockPriceExceedsAllocation" description="Stock price exceeds dollar allocation → 0 shares, no error" finished-at="2026-06-08T14:43:28 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stockPriceExceedsAllocation -->
+        <test-method signature="tcParameterized_allSecurities(org.crd.Security,java.lang.String,int)[pri:0, instance:org.crd.tests.ShareCalculationTest@2c35e847]" started-at="2026-06-08T14:43:28 IST" name="tcParameterized_allSecurities" description="correct action and shares for each security" data-provider="securityData" finished-at="2026-06-08T14:43:28 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.crd.Security@3e08ff24]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BUY]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[66]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tcParameterized_allSecurities -->
+        <test-method signature="tcParameterized_allSecurities(org.crd.Security,java.lang.String,int)[pri:0, instance:org.crd.tests.ShareCalculationTest@2c35e847]" started-at="2026-06-08T14:43:28 IST" name="tcParameterized_allSecurities" description="correct action and shares for each security" data-provider="securityData" finished-at="2026-06-08T14:43:28 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.crd.Security@4c2bb6e0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[HOLD]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tcParameterized_allSecurities -->
+        <test-method signature="tcParameterized_allSecurities(org.crd.Security,java.lang.String,int)[pri:0, instance:org.crd.tests.ShareCalculationTest@2c35e847]" started-at="2026-06-08T14:43:28 IST" name="tcParameterized_allSecurities" description="correct action and shares for each security" data-provider="securityData" finished-at="2026-06-08T14:43:28 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.crd.Security@4ef74c30]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SELL]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[45]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tcParameterized_allSecurities -->
+        <test-method signature="tcParameterized_allSecurities(org.crd.Security,java.lang.String,int)[pri:0, instance:org.crd.tests.ShareCalculationTest@2c35e847]" started-at="2026-06-08T14:43:28 IST" name="tcParameterized_allSecurities" description="correct action and shares for each security" data-provider="securityData" finished-at="2026-06-08T14:43:28 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.crd.Security@638ef7ed]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[HOLD]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tcParameterized_allSecurities -->
+        <test-method signature="tcParameterized_allSecurities(org.crd.Security,java.lang.String,int)[pri:0, instance:org.crd.tests.ShareCalculationTest@2c35e847]" started-at="2026-06-08T14:43:28 IST" name="tcParameterized_allSecurities" description="correct action and shares for each security" data-provider="securityData" finished-at="2026-06-08T14:43:28 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.crd.Security@3f1d2e23]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[HOLD]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tcParameterized_allSecurities -->
+      </class> <!-- org.crd.tests.ShareCalculationTest -->
+    </test> <!-- 2 - Share Calculation -->
+    <test started-at="2026-06-08T14:43:28 IST" name="3 - Zero Variance" finished-at="2026-06-08T14:43:28 IST" duration-ms="25">
+      <class name="org.crd.tests.ZeroVarianceTest">
+        <test-method signature="alreadyBalancedPortfolio()[pri:0, instance:org.crd.tests.ZeroVarianceTest@d5b810e]" started-at="2026-06-08T14:43:28 IST" name="alreadyBalancedPortfolio" description="A portfolio already at its target shows no trades are needed" finished-at="2026-06-08T14:43:28 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alreadyBalancedPortfolio -->
+        <test-method signature="rebalanceIsSelfFunding()[pri:0, instance:org.crd.tests.ZeroVarianceTest@d5b810e]" started-at="2026-06-08T14:43:28 IST" name="rebalanceIsSelfFunding" description="Portfolio can be rebalanced without adding any extra money" finished-at="2026-06-08T14:43:28 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rebalanceIsSelfFunding -->
+        <test-method signature="tradesAchieveZeroVariance()[pri:0, instance:org.crd.tests.ZeroVarianceTest@d5b810e]" started-at="2026-06-08T14:43:28 IST" name="tradesAchieveZeroVariance" description="Applying BUY 66 IBM and SELL 45 ORCL removes all variance" finished-at="2026-06-08T14:43:28 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tradesAchieveZeroVariance -->
+        <test-method signature="noFurtherTradesAfterRebalance()[pri:0, instance:org.crd.tests.ZeroVarianceTest@d5b810e]" started-at="2026-06-08T14:43:28 IST" name="noFurtherTradesAfterRebalance" description="After trades are executed no further trades are needed" finished-at="2026-06-08T14:43:28 IST" depends-on-methods="org.crd.tests.ZeroVarianceTest.tradesAchieveZeroVariance" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- noFurtherTradesAfterRebalance -->
+      </class> <!-- org.crd.tests.ZeroVarianceTest -->
+    </test> <!-- 3 - Zero Variance -->
+  </suite> <!-- CRD Portfolio Rebalancer Test Suite -->
+</testng-results>
